@@ -1,0 +1,123 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    margin: auto;
+    vertical-align: middle;
+    border-radius: 15px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 750px;
+}
+
+.drawer {
+    width: 100%;
+    max-width: 300px;
+    background-size: cover; 
+    background-position: center;
+    border-radius: 15px 0 0 15px;
+}
+
+.content {
+    box-sizing: border-box;
+    padding: 40px 40px 0 40px;
+}
+
+.content h2 {
+    line-height: 28px;
+}
+
+.content p {
+    color: hsl(214, 17%, 51%);
+    line-height: 20px;
+}
+
+.legend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px 40px 40px;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+}
+
+.avatar img {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.name {
+    font-weight: 700;
+    
+}
+
+.share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: hsl(210, 46%, 95%);
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.share:hover, .share:focus, .share:active {
+    background-color: hsl(217, 19%, 35%);
+    cursor: pointer;
+}
+
+.publish-date {
+    margin-top: 3px;
+    color: hsl(214, 17%, 51%);
+}
+
+.share-menu {
+    display: none;
+    position: relative;
+    z-index: 2;
+    background-color: hsl(217, 19%, 35%);
+    padding: 15px 30px;
+    border-radius: 5px;
+    bottom: 60px;
+}
+
+.share-menu p {
+    color: #fff;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+.medsos {
+    display: flex;
+}
+
+.medsos img {
+    margin-left: 15px;
+}

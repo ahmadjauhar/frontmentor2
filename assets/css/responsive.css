@@ -1,0 +1,46 @@
+@media (max-width: 376px) {
+    body {
+        background-color: #fff;
+    }
+
+    .card {
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    .drawer {
+        height: 50vh;
+        border-radius: 0;
+        flex-grow: 1;
+    }
+
+    .content {
+        flex-grow: 1;
+        padding: 40px 40px 10px 40px;
+    }
+
+    .legend {
+        position: relative;
+        bottom: 0;
+        padding: 20px 40px;
+        border-radius: 0;
+    }
+
+    .share-menu {
+        position: initial;
+        border-radius: 0;
+        padding: 12px 0;
+    }
+}
+
+@media (min-width: 376px) {
+    .share-menu::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: hsl(217, 19%, 35%) transparent transparent transparent;
+    }
+}
